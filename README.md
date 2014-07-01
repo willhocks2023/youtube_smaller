@@ -19,3 +19,5 @@ This script works with the following browsers (and plugins):
 * Opera (Violentmonkey)
 
 Others are yet to be tested. Make sure to use the latest browsers.
+
+(At version 1.6, this project was transferred to Github, enabling automatic updates, issue tracking, etc.)
