@@ -1,6 +1,13 @@
 Version info & updates
 ----------------------
 
+_v1.7_
+
+(Cosmetic changes only)
+
+* Removed www from namespace
+* Added GitHub URL alongside the tutorial video URL
+
 _v1.6_
 
 * Moved script to GitHub to facilitate updates & issue tracking
