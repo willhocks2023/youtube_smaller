@@ -27,7 +27,7 @@ document.getElementsByClassName('watch-sidebar')[0].style.marginLeft = '640px';
 var action_panel_details = document.getElementsByClassName('action-panel-details');
 
 for (var i = 0; i < action_panel_details.length; i++)
-    action_panel_details[i].style.width = '600px'; 
+    action_panel_details[i].style.width = '600px';
     
 var action_panel_content = document.getElementsByClassName('action-panel-content');
 
