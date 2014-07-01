@@ -6,11 +6,12 @@
 // @include     http://www.youtube.com/watch*
 // @updateURL	https://raw.githubusercontent.com/GeriBoss/youtube_smaller/master/youtube_smaller.js
 // @downloadURL	https://raw.githubusercontent.com/GeriBoss/youtube_smaller/master/youtube_smaller.js
-// @version     1.6
+// @version     1.7
 // @grant       none
 // ==/UserScript==
 
-//For more information about this script, visit https://www.youtube.com/watch?v=jJus7CQvfqc
+//For more information about this script, visit https://github.com/GeriBoss/youtube_smaller
+// or watch the tutorial video: https://www.youtube.com/watch?v=jJus7CQvfqc
 
 document.getElementById('player').style.width = '1040px';
 
