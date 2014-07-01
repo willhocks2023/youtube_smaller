@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        youtube_smaller_player
-// @namespace   http://www.users.atw.hu/geriboss
+// @namespace   http://users.atw.hu/geriboss
 // @description Resizes Youtube player to the old, smaller configuration
 // @include     https://www.youtube.com/watch*
 // @include     http://www.youtube.com/watch*
