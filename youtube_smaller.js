@@ -4,9 +4,9 @@
 // @description Resizes Youtube player to the old, smaller configuration
 // @include     https://www.youtube.com/watch*
 // @include     http://www.youtube.com/watch*
-// @updateURL	https://raw.githubusercontent.com/GeriBoss/youtube_smaller/master/youtube_smaller.js
-// @downloadURL	https://raw.githubusercontent.com/GeriBoss/youtube_smaller/master/youtube_smaller.js
-// @version     1.7
+// @updateURL   https://raw.githubusercontent.com/GeriBoss/youtube_smaller/master/youtube_smaller.js
+// @downloadURL https://raw.githubusercontent.com/GeriBoss/youtube_smaller/master/youtube_smaller.js
+// @version     1.8
 // @grant       none
 // ==/UserScript==
 
@@ -15,22 +15,32 @@
 
 document.getElementById('player').style.width = '1040px';
 
-document.getElementById('player-api').style.width = '640px';
-document.getElementById('player-api').style.height = '390px';
+document.getElementById('watch7-content').style.width = '640px';
+document.getElementById('content').style.maxWidth = '1040px';
 
-document.getElementById('content').style.width = '1040px';
+document.getElementById('watch7-sidebar').style.top = '0px';
+document.getElementById('watch7-sidebar').style.marginLeft = '640px';
 
-document.getElementsByClassName('watch-content')[0].style.width = '640px';
+document.getElementById('watch7-sidebar-contents').style.minHeight = '390px';
 
-document.getElementsByClassName('watch-sidebar')[0].style.top = '0px';
-document.getElementsByClassName('watch-sidebar')[0].style.marginLeft = '640px';
+var i, nodes = document.getElementsByClassName('action-panel-content');
+for (i = 0; i < nodes.length; i++)
+	nodes[i].style.width = '600px';
 
-var action_panel_details = document.getElementsByClassName('action-panel-details');
+nodes = document.getElementsByClassName('player-width');
+for (i = 0; i < nodes.length; i++)
+	nodes[i].style.width = '640px';
 
-for (var i = 0; i < action_panel_details.length; i++)
-    action_panel_details[i].style.width = '600px';
-    
-var action_panel_content = document.getElementsByClassName('action-panel-content');
+nodes = document.getElementsByClassName('player-height');
+for (i = 0; i < nodes.length; i++)
+	nodes[i].style.height = '390px';
 
-for (var i = 0; i < action_panel_content.length; i++)
-    action_panel_content[i].style.width = '600px';
+document.getElementById('theater-background').style.height = '520px';
+
+nodes = document.getElementsByClassName('watch-playlist');
+for (i = 0; i < nodes.length; i++)
+	nodes[i].style.minHeight = '390px';
+
+nodes = document.getElementsByClassName('playlist-videos-list');
+for (i = 0; i < nodes.length; i++)
+	nodes[i].style.maxHeight = '290px';
