@@ -7,8 +7,8 @@ Recently (June, 2014) Youtube introduced a "feature" to dynamically resize the p
 
 *Before & after:*
 
-<img src="img/before.jpg" width="350" title="Before">
-<img src="img/after.jpg" width="350" title="After">
+<img src="img/before.jpg" width="300" title="Before">
+<img src="img/after.jpg" width="300" title="After">
 
 Tutorial of installation here: https://www.youtube.com/watch?v=jJus7CQvfqc
 
