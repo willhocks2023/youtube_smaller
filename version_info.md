@@ -1,10 +1,14 @@
 Version info & updates
 ----------------------
 
+_v1.8_
+
+* Fixed playlist scrollbar height
+* Refined script, should perform better on various screen sizes
+
 _v1.7_
 
-(Cosmetic changes only)
-
+* (Cosmetic changes only)
 * Removed www from namespace
 * Added GitHub URL alongside the tutorial video URL
 
